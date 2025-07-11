@@ -14,9 +14,17 @@
 
   <main>
     <section id="muscle-map">
-      <h2>Select a Muscle Group</h2>
-      <img src="assets/body-front.svg" alt="Muscle Map Front" id="body-front">
-    </section>
+  <h2>Select a Muscle Group</h2>
+  <div id="muscle-buttons">
+    <button onclick="loadExercises('Chest')">Chest</button>
+    <button onclick="loadExercises('Biceps')">Biceps</button>
+    <button onclick="loadExercises('Back')">Back</button>
+    <button onclick="loadExercises('Legs')">Legs</button>
+    <button onclick="loadExercises('Shoulders')">Shoulders</button>
+    <button onclick="loadExercises('Triceps')">Triceps</button>
+  </div>
+</section>
+
 
     <section id="exercise-display">
       <h2>Exercises</h2>
