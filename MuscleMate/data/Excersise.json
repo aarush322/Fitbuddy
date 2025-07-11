@@ -1,0 +1,24 @@
+{
+  "Chest": [
+    {
+      "name": "Push-Ups",
+      "video": "https://www.youtube.com/embed/IODxDxX7oi4",
+      "image": "assets/images/pushup.jpg",
+      "description": "A beginner-friendly bodyweight chest exercise."
+    },
+    {
+      "name": "Bench Press",
+      "video": "https://www.youtube.com/embed/gRVjAtPip0Y",
+      "image": "assets/images/benchpress.jpg",
+      "description": "Great for building upper chest mass with weights."
+    }
+  ],
+  "Biceps": [
+    {
+      "name": "Bicep Curls",
+      "video": "https://www.youtube.com/embed/ykJmrZ5v0Oo",
+      "image": "assets/images/curl.jpg",
+      "description": "Simple dumbbell exercise to isolate biceps."
+    }
+  ]
+}
