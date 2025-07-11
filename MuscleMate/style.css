@@ -32,3 +32,25 @@ img {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   max-width: 500px;
 }
+#muscle-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#muscle-buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#muscle-buttons button:hover {
+  background: #2c3e50;
+}
