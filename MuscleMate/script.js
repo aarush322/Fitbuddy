@@ -1,14 +1,10 @@
-document.getElementById("body-front").addEventListener("click", () => {
-  loadExercises("Chest");
-});
-
 async function loadExercises(muscle) {
   const res = await fetch('data/exercises.json');
   const data = await res.json();
   const exercises = data[muscle];
 
   const container = document.getElementById("exercise-list");
-  container.innerHTML = '';
+  container.innerHTML = `<h2>${muscle} Exercises</h2>`;
 
   exercises.forEach(ex => {
     const div = document.createElement("div");
